@@ -8,7 +8,7 @@ import outcomeIgm from '../../assets/outcome.svg'
 import totalIgm from '../../assets/total.svg'
 
 export function Summary() {
-  const transactions = useContext(TransactionsContext)
+  const { transactions } = useContext(TransactionsContext)
 
   return (
     <Container>
